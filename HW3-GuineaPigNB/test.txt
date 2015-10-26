@@ -1,0 +1,5 @@
+63	gent,Person	'Abd al-sa
+142	Work	"'S Out" osksd
+157	Work	"Abd Abd
+231	Location,Place,PopulatedPlace,Settlement	't 1999
+243	Other	(118378) ski ksdj

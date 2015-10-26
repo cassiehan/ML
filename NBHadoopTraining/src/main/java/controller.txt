@@ -1,0 +1,57 @@
+2015-09-25T19:19:19.698Z INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-1TAVJ5BBS31A2/NB.jar s3://bigml15fall/dbpedia/abstract/small/ s3://ml15fall/projecr2/output1/ 5'
+2015-09-25T19:19:19.701Z INFO Environment:
+  TERM=linux
+  CONSOLETYPE=serial
+  SHLVL=5
+  JAVA_HOME=/etc/alternatives/jre
+  HADOOP_IDENT_STRING=hadoop
+  LANGSH_SOURCED=1
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  UPSTART_JOB=rc
+  MAIL=/var/spool/mail/hadoop
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  AWS_RDS_HOME=/opt/aws/apitools/rds
+  PWD=/
+  HOSTNAME=ip-172-31-50-91
+  LESS_TERMCAP_se=[0m
+  LOGNAME=hadoop
+  UPSTART_INSTANCE=
+  AWS_PATH=/opt/aws
+  LESS_TERMCAP_mb=[01;31m
+  _=/etc/alternatives/jre/bin/java
+  LESS_TERMCAP_me=[0m
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  LESS_TERMCAP_md=[01;38;5;208m
+  runlevel=3
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_EVENTS=runlevel
+  HISTSIZE=1000
+  previous=N
+  HADOOP_LOGFILE=syslog
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  EC2_HOME=/opt/aws/apitools/ec2
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-1TAVJ5BBS31A2
+  LESS_TERMCAP_ue=[0m
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  RUNLEVEL=3
+  USER=hadoop
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-1TAVJ5BBS31A2/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  HISTCONTROL=ignoredups
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  AWS_DEFAULT_REGION=us-east-1
+  LANG=en_US.UTF-8
+  LESS_TERMCAP_us=[04;38;5;111m
+2015-09-25T19:19:19.701Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-1TAVJ5BBS31A2/stdout
+2015-09-25T19:19:19.701Z INFO redirectError to /mnt/var/log/hadoop/steps/s-1TAVJ5BBS31A2/stderr
+2015-09-25T19:19:19.701Z INFO Working dir /mnt/var/lib/hadoop/steps/s-1TAVJ5BBS31A2
+2015-09-25T19:19:19.752Z INFO ProcessRunner started child process 16718 :
+hadoop   16718  1860  0 19:19 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-1TAVJ5BBS31A2/NB.jar s3://bigml15fall/dbpedia/abstract/small/ s3://ml15fall/projecr2/output1/ 5
+2015-09-25T19:19:19.755Z INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-1TAVJ5BB...
+2015-09-25T19:21:39.767Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-1TAVJ5BB...
+2015-09-25T19:21:39.767Z INFO total process run time: 140 seconds
+2015-09-25T19:21:39.947Z INFO Step created jobs: job_1443205602579_0003
+2015-09-25T19:21:39.948Z INFO Step succeeded with exitCode 0 and took 140 seconds

@@ -1,0 +1,94 @@
+2015-09-25 19:19:26,883 INFO com.amazon.ws.emr.hadoop.fs.EmrFileSystem (main): Consistency disabled, using com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem as filesystem implementation
+2015-09-25 19:19:27,366 INFO amazon.emr.metrics.MetricsSaver (main): MetricsConfigRecord disabledInCluster: false instanceEngineCycleSec: 60 clusterEngineCycleSec: 60 disableClusterEngine: false maxMemoryMb: 3072 maxInstanceCount: 500 lastModified: 1443205614124 
+2015-09-25 19:19:27,366 INFO amazon.emr.metrics.MetricsSaver (main): Created MetricsSaver j-H4YUGC3GAQ0T:i-d6142075:RunJar:16718 period:60 /mnt/var/em/raw/i-d6142075_20150925_RunJar_16718_raw.bin
+2015-09-25 19:19:28,894 INFO com.amazon.ws.emr.hadoop.fs.EmrFileSystem (main): Consistency disabled, using com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem as filesystem implementation
+2015-09-25 19:19:29,448 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-50-91.ec2.internal/172.31.50.91:8032
+2015-09-25 19:19:32,303 WARN org.apache.hadoop.mapreduce.JobSubmitter (main): Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-09-25 19:19:33,147 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): listStatus s3://bigml15fall/dbpedia/abstract/small with recursive false
+2015-09-25 19:19:33,304 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2015-09-25 19:19:33,323 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2015-09-25 19:19:33,333 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev f6f39de0c0bc9982f67f24a5728ab3f2515eadb8]
+2015-09-25 19:19:33,444 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2015-09-25 19:19:34,022 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1443205602579_0003
+2015-09-25 19:19:34,353 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1443205602579_0003
+2015-09-25 19:19:34,454 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-50-91.ec2.internal:20888/proxy/application_1443205602579_0003/
+2015-09-25 19:19:34,458 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1443205602579_0003
+2015-09-25 19:19:51,959 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1443205602579_0003 running in uber mode : false
+2015-09-25 19:19:51,961 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2015-09-25 19:20:12,263 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2015-09-25 19:20:15,286 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2015-09-25 19:20:18,312 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 0%
+2015-09-25 19:20:21,335 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 0%
+2015-09-25 19:20:30,410 INFO org.apache.hadoop.mapreduce.Job (main):  map 67% reduce 0%
+2015-09-25 19:20:33,434 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 0%
+2015-09-25 19:20:36,463 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 0%
+2015-09-25 19:20:37,504 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2015-09-25 19:20:57,678 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 20%
+2015-09-25 19:21:09,769 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 35%
+2015-09-25 19:21:12,790 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 56%
+2015-09-25 19:21:15,814 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 60%
+2015-09-25 19:21:16,822 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 80%
+2015-09-25 19:21:32,939 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2015-09-25 19:21:37,986 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1443205602579_0003 completed successfully
+2015-09-25 19:21:38,475 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=25568107
+		FILE: Number of bytes written=38149850
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=125
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=16323876
+		S3: Number of bytes written=14222844
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=6
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=126885
+		Total time spent by all reduces in occupied slots (ms)=504356
+		Total time spent by all map tasks (ms)=42295
+		Total time spent by all reduce tasks (ms)=126089
+		Total vcore-seconds taken by all map tasks=42295
+		Total vcore-seconds taken by all reduce tasks=126089
+		Total megabyte-seconds taken by all map tasks=32482560
+		Total megabyte-seconds taken by all reduce tasks=129115136
+	Map-Reduce Framework
+		Map input records=32845
+		Map output records=5567395
+		Map output bytes=121574580
+		Map output materialized bytes=12144949
+		Input split bytes=125
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=613363
+		Reduce shuffle bytes=12144949
+		Reduce input records=5567395
+		Reduce output records=613363
+		Spilled Records=16702185
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=4018
+		CPU time spent (ms)=54860
+		Physical memory (bytes) snapshot=1287122944
+		Virtual memory (bytes) snapshot=7974363136
+		Total committed heap usage (bytes)=567152640
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=16323876
+	File Output Format Counters 
+		Bytes Written=14222844
